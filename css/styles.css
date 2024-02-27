@@ -9,10 +9,14 @@ body{
 img{
     display: block;
 }
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
 ul{
     margin-top: 0px;
         margin-bottom: 0px;
         list-style: none;
+        padding-left: 0px;
 }
 .visually-hidden {
     position: absolute;
@@ -54,6 +58,7 @@ text-transform: uppercase;
 .navbar{
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 .nav-links{
     display: flex;
@@ -90,6 +95,7 @@ letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
 letter-spacing: 0.02em;
     text-decoration: none;
+    font-style: normal;
 }
 .address-link:hover{
     color: var(--OCEAN, #404BBF);
@@ -246,10 +252,6 @@ letter-spacing: 0.4px;
 
 }
 .project-item-text{
-    margin-top: 8px;
-    margin-bottom: 32px;
-    margin-left: 16px;
-    margin-right: 16px;
 letter-spacing: 0.32px;
 }
 .footer{
@@ -284,5 +286,5 @@ letter-spacing: 0.54px;
 .footer-text{
     color: var(--CLOUD, #F4F4FD);
     letter-spacing: 0.02em;
-
+    max-width: 264px;
 }
